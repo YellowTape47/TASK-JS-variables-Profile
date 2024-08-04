@@ -11,6 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = "Haider Kamal";
+let yearOfBirth = 2000;
+let hobby = "Football";
+let funFact = "I like Backend";
+const image = "https://ih1.redbubble.net/image.1671944269.9239/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg";
 
 
 
@@ -33,8 +38,9 @@
 // const yearOfBirthString =
 // const hobbyString =
 
-
-
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2024-yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment
@@ -45,14 +51,24 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+
+  stars = stars + 1  
+
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+   
+  stars = stars - 1
+
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars + 2
+
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars - 2
+
 }
